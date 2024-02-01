@@ -1,0 +1,11 @@
+{
+  "backend": {
+    "url" : "http://192.168.56.1:8080"
+  },
+  "passwordPolicy": {
+    "minLength": 8,
+    "requiredCharacterTypes": 3,
+    "characterTypes": ["lowercase", "uppercase", "number", "special"],
+    "errorMessage": "Password must be at least 8 characters long and include at least 3 of the following categories: lowercase, uppercase, number, special character."
+  }
+}

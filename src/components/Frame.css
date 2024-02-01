@@ -1,0 +1,17 @@
+.square-container {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square span {
+  font-size: 18px;
+}
